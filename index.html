@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP5</title>
+    <link rel="stylesheet" href="estilo-index.css">
+    <link rel="icon" href="GaboVR.png">
+</head>
+
+<body>
+    <header>
+        <h1 id="solicitud">MP5 Solicitudes</h1>
+    </header>
+    <main>
+        <div id="contenedor-info">
+            <h2 id="interface">Usuario</h2>
+            <label for="nombre">Nombre de MC:</label>
+            <input type="text" name="nombre-usuario" id="nombre">
+            <label for="nombreds">Usuario de Discord:</label>
+            <input type="text" name="nombre-discord" id="nombre-ds">
+        </div>
+        <div class="contenedor-imagen">
+            <img src="baelz-hakos.gif" alt="Contact Owner Page." title="Contact Owner Page." class="circular-imagen">
+            <li>
+                Contacto de Dev
+                <a href="">Support Discord</a>
+            </li>
+        </div>
+
+        <div id="music-player" class="open">
+            <div id="player-content">
+                <button id="toggle-btn" img src="wired-outline-220-arrow-9.gif" onclick="togglePlayer()">&#9776;</button>
+                <h3>Reproductor de Música</h3>
+                <img src="Gabo.vrc.gif" alt="" id="cover-image">
+                <audio controls>
+                    <source src="emanero.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+            </div>
+        </div>
+    
+        <script src="script.js"></script>
+
+    </main>
+
+    <footer>
+        <div id="botones-accesos">
+            <a id="botonds" href="https://discord.gg/9wvJmW7SD6" target="_blank">Discord
+                <img src="ubicacion.gif" alt="Inicio" width="30px" height="30px">
+            </a>
+            <a id="base" href="/inicio.html">Regresar
+                <img src="ubicacion.gif" alt="Inicio" width="30px" height="30px">
+            </a>
+        </div>
+</body>
+
+</html>

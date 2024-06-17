@@ -1,8 +1,17 @@
 body{
     background-color: cadetblue;
+    justify-content: center;
+    display: grid;
 }
 
 .imagen-referencia{
     justify-content: center;
     display: grid;
+    animation: lagmental 2s infinite;
+}
+
+@keyframes lagmental {
+    50%{
+        transform: scale(0.5);
+    }
 }

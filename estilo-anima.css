@@ -1,35 +1,36 @@
-body{
-    background-color: cadetblue;
-    padding: 15px;
-    margin: 15px;
-    background-image: url(fondo.gif);
+body {
+    background-image: url('sakura.gif'); 
+    background-position: center center;
     background-repeat: no-repeat;
-    background-position: center;
-    
+    background-size: auto 100vh; 
+    background-attachment: fixed;
+    background-color: #82caeb;
 }
 
-.imagen-referencia{
-    justify-content: center;
-    display: grid;
+.imagen-referencia {
+    position: absolute;
+    margin-top: 20px; 
     animation: lagmental 5s infinite;
-    width: 350px;
-    height: 350px;
 }
 
 @keyframes lagmental {
-    0%{
+    0% {
         transform: translateY(-50px);
     }
-    30%{
+
+    30% {
         transform: translateY(0) rotate(5deg);
     }
-    50%{
+
+    50% {
         transform: rotate(-5deg);
     }
-    75%{
+
+    75% {
         transform: rotate(5deg);
     }
-    100%{
+
+    100% {
         transform: translateY(-50px);
     }
 }

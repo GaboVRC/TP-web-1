@@ -1,4 +1,4 @@
 function togglePlayer() {
-    var player = document.getElementById('music-player');
+    let player = document.getElementById('music-player');
     player.classList.toggle('closed');
 }

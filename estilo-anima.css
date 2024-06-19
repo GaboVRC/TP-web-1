@@ -5,12 +5,18 @@ body {
     background-size: auto 100vh; 
     background-attachment: fixed;
     background-color: #82caeb;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
 }
 
 .imagen-referencia {
     position: absolute;
     margin-top: 20px; 
     animation: lagmental 5s infinite;
+    grid-column: 2 / 3;
+    grid-row: 1;
 }
 
 @keyframes lagmental {

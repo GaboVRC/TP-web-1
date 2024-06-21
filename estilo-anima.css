@@ -39,6 +39,17 @@ footer{
     grid-row: 3;
 }
 
+button{
+    border: 0;
+    background-image: linear-gradient(
+        150deg,
+        #b575ff
+        #882af5
+        #5800BC
+    );
+    border-radius: 8px;
+}
+
 @keyframes lagmental {
     0% {
         transform: translateY(-50px);

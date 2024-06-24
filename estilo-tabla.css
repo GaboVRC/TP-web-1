@@ -30,8 +30,8 @@ main{
 }
 
 footer{
-  /* grid-column: 2 / 3;
-  grid-row: 3; */
+  grid-column: 1 / 4;
+  grid-row: 3;
 /*   width: 150px;
   height: 150px; */
   display: grid;
@@ -41,8 +41,10 @@ footer{
 }
 
 iframe{
-    grid-column: 2 / 3;
-    grid-row: 3;
+/*     grid-column: 2 / 3;
+    grid-row: 3; */
+    width: 700px;
+    height: 350px;
 }
 
 button{
@@ -57,8 +59,6 @@ button{
     transition: .3s;
     justify-content: center;
     display: grid;
-    position: absolute;
-    bottom: 0;
 }
 
 button:hover span{
@@ -83,15 +83,13 @@ button span{
     object-fit: cover; 
     display: grid;
     justify-content: center;
-    position: absolute;
-    bottom: 0;
 }
 
 
 table{
     border-collapse: collapse;
-    width: 100%;
-    height: 100%;
+    width: 700px;
+    height: 250px;
 }
 
 th{

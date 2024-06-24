@@ -80,6 +80,25 @@ li{
     position: center;
 }
 
+.boton-tabla{
+    justify-content: center;
+    display: grid;
+}
+
+#boton1{
+    border: 0;
+    background-color: rgb(49, 173, 255);
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    display: flex;
+    transition: .3s;
+    justify-content: center;
+    display: grid;
+}
+
 @keyframes lagmental {
     0% {
         transform: translateY(-50px);

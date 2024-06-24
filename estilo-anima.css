@@ -68,6 +68,18 @@ button span{
     transition: .3s;
 }
 
+h2{
+    color: #82caeb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li{
+    font-size: larger;
+    justify-content: center;
+    display: grid;
+    position: center;
+}
+
 @keyframes lagmental {
     0% {
         transform: translateY(-50px);
